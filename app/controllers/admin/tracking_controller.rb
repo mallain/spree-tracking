@@ -22,7 +22,7 @@ class Admin::TrackingController < ApplicationController
       case tmp_shipment.shipping_method.shipping_type.identifier
         when "tnt" then tracking = TrackingTnt.new(tmp_shipment)
         when "chronopost" then tracking = TrackingChronopost.new(tmp_shipment)
-        when "collisimo" then tracking = TrackingChronopost.new(tmp_shipment)
+        when "colissimo" then tracking = TrackingChronopost.new(tmp_shipment)
       end
 
       unless tracking.nil?
