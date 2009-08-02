@@ -8,9 +8,11 @@ class SpreeTrackingExtension < Spree::Extension
 
   # Please use spree_tracking/config/routes.rb instead for extension routes.
 
-  # def self.require_gems(config)
-  #   config.gem "gemname-goes-here", :version => '1.2.3'
-  # end
+  define_routes do |map|
+    map.namespace :admin do |admin|
+      admin.resources :tracking,  :member => {:generate => :get}
+    end
+  end
   
   def activate
 

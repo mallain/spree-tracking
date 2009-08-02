@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<spree_tracking>
+<field>
+    <name>provider_number</name>
+    <value>99999999</value>
+    <max-length>8</max-length>
+</field>
+<field>
+    <name>shipment_saturday_or_week</name>
+    <max-length>1</max-length>
+</field>
+<field>
+    <name>shipment_weight</name>
+    <min-length>6</min-length>
+    <pattern>
+        <value>0</value>
+        <position>left</position>
+    </pattern>
+</field>
+<field>
+    <name>client_id</name>
+    <min-length>15</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<field>
+    <name>number_shipment_package</name>
+    <min-length>10</min-length>
+    <pattern>
+        <value>0</value>
+        <position>left</position>
+    </pattern>
+</field>
+<field>
+    <value> </value>
+    <length>10</length>
+</field>
+<field>
+    <name>last_name_first_name</name>
+    <min-length>32</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<field>
+    <name>address</name>
+    <min-length>64</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<field>
+    <name>zipcode</name>
+    <min-length>10</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<field>
+    <name>city</name>
+    <min-length>27</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<field>
+    <name>country_code</name>
+    <value>FR</value>
+</field>
+<field>
+    <name>account_authorization_saturday_shipment</name>
+    <value>JZ</value>
+</field>
+<field>
+    <value> </value>
+    <length>10</length>
+</field>
+<field>
+    <name>phone</name>
+    <min-length>30</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</field>
+<global_settings>
+    <min-length>428</min-length>
+    <pattern>
+        <value> </value>
+        <position>right</position>
+    </pattern>
+</global_settings>
+</spree_tracking>

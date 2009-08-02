@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<spree_tracking>
+<field>
+    <name>order_id</name>
+</field>
+<field>
+    <name>last_name_first_name</name>
+</field>
+<field>
+    <name>address_line1</name>
+</field>
+<field>
+    <name>address_line2</name>
+</field>
+<field>
+    <name>zipcode</name>
+</field>
+<field>
+    <name>city</name>
+</field>
+<field>
+    <name>shipment_weight</name>
+</field>
+<field>
+    <name>phone</name>
+</field>
+<field>
+    <name>order_id</name>
+</field>
+<field>
+    <name>sender_code</name>
+    <value>88888888</value>
+</field>
+<field>
+    <name>country_code</name>
+</field>
+<field>
+    <name>last_name_first_name</name>
+</field>
+<field>
+    <name>amount_refund</name>
+</field>
+<field>
+    <name>email</name>
+</field>
+</spree_tracking>

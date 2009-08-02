@@ -2,4 +2,4 @@
 
 # map.namespace :admin do |admin|
 #   admin.resources :whatever
-# end  
+# end
