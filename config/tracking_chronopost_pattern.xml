@@ -20,6 +20,9 @@
     <name>city</name>
 </field>
 <field>
+    <name>empty</name>
+</field>
+<field>
     <name>shipment_weight</name>
 </field>
 <field>
@@ -29,7 +32,7 @@
     <name>order_id</name>
 </field>
 <field>
-    <name>sender_code</name>
+    <name>provider_number</name>
     <value>88888888</value>
 </field>
 <field>

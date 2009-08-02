@@ -46,7 +46,8 @@ class TrackingChronopost
       'phone' => "#{retrieve_phone(shipment)}",
       'country_code' => "#{retrieve_country_code(shipment)}",
       'amount_refund' => "#{retrieve_amount_refund(shipment)}",
-      'email' => "#{retrieve_email(shipment)}"
+      'email' => "#{retrieve_email(shipment)}",
+      'empty' => ""
     }
 
     ##############
