@@ -67,17 +67,22 @@ class TrackingTnt
 
   # Retrieve shipement weight
   def retrieve_shipment_weight(shipment)
-    return '0.1'
+    # Instanciate weight
+    result = '0.1'
+    
+    result = shipment.weight unless shipment.weight.empty?
+    
+    result
   end
 
   # Retrieve client ID
   def retrieve_client_id(shipment)
-    return shipment.order.user.id
+    shipment.order.user.id
   end
 
   # Number of shipment package
   def retrieve_number_shipment_package(shipment)
-    return shipment.order.id
+    shipment.order.id
   end
 
   # Concate Last_name and First_name
@@ -112,26 +117,26 @@ class TrackingTnt
     result += ' ' unless address_line1.nil?
     result += address_line2 unless address_line2.nil?
 
-    return result
+    result
   end
 
   # Retrieve Zipcode
   def retrieve_zipcode(shipment)
-    return shipment.address.zipcode
+    shipment.address.zipcode
   end
 
   # Retrieve Town
   def retrieve_city(shipment)
-    return shipment.address.city
+    shipment.address.city
   end
 
   # Retrieve country code
   def retrieve_country_code(shipment)
-    return shipment.address.country.iso
+    shipment.address.country.iso
   end
 
   # Retrieve customer phone number
   def retrieve_phone(shipment)
-    return shipment.address.phone
+    shipment.address.phone
   end
 end

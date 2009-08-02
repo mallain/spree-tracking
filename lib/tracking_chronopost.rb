@@ -135,7 +135,12 @@ class TrackingChronopost
 
   # Retrieve shipement weight
   def retrieve_shipment_weight(shipment)
-    ''
+    # Instanciate weight
+    result = ''
+
+    result = shipment.weight unless shipment.weight.empty?
+
+    result
   end
 
   # Retrieve email
